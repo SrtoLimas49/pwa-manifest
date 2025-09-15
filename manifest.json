@@ -2,21 +2,27 @@
   "name": "Inventario Empresa",
   "short_name": "Inventario",
   "description": "Gestión de stock y números de serie",
-  "start_url": "https://inventarioderework.infinityfreeapp.com/?source=pwa",
+  "start_url": "https://inventarioderework.infinityfreeapp.com/inventario_qr/login.php?source=pwa",
   "scope": "https://inventarioderework.infinityfreeapp.com/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#6200EE",
   "icons": [
     {
-      "src": "https://Srtolimas49.github.io/pwa-manifest/icons/icon-192.png",
+      "src": "https://srtolimas49.github.io/pwa-manifest/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://Srtolimas49.github.io/pwa-manifest/icons/icon-512.png",
+      "src": "https://srtolimas49.github.io/pwa-manifest/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "https://srtolimas49.github.io/pwa-manifest/icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
